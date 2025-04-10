@@ -54,11 +54,11 @@ class RockPaperScissorsGame:
         self.round_result = ""
         
         # Load resources
-        self.bg_image = cv2.imread("Resources1/BG.png")
+        self.bg_image = cv2.imread("Resources/BG.png")
         self.move_images = {
-            Move.ROCK: cv2.imread('Resources1/1.png', cv2.IMREAD_UNCHANGED),
-            Move.PAPER: cv2.imread('Resources1/2.png', cv2.IMREAD_UNCHANGED),
-            Move.SCISSORS: cv2.imread('Resources1/3.png', cv2.IMREAD_UNCHANGED)
+            Move.ROCK: cv2.imread('Resources/1.png', cv2.IMREAD_UNCHANGED),
+            Move.PAPER: cv2.imread('Resources/2.png', cv2.IMREAD_UNCHANGED),
+            Move.SCISSORS: cv2.imread('Resources/3.png', cv2.IMREAD_UNCHANGED)
         }
         
         # Visual effects
@@ -71,10 +71,10 @@ class RockPaperScissorsGame:
             import pygame
             pygame.mixer.init()
             self.sounds = {
-                "countdown": pygame.mixer.Sound("Resources1/countdown.wav"),
-                "win": pygame.mixer.Sound("Resources1/win.wav"),
-                "lose": pygame.mixer.Sound("Resources1/lose.wav"),
-                "draw": pygame.mixer.Sound("Resources1/draw.wav")
+                "countdown": pygame.mixer.Sound("Resources/countdown.wav"),
+                "win": pygame.mixer.Sound("Resources/win.wav"),
+                "lose": pygame.mixer.Sound("Resources/lose.wav"),
+                "draw": pygame.mixer.Sound("Resources/draw.wav")
             }
             self.sound_enabled = True
         except (ImportError, FileNotFoundError):

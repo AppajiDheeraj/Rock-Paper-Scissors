@@ -32,7 +32,15 @@ https://user-images.githubusercontent.com/your-demo.gif <!-- Optional: Add your 
 
 ## 📂 Folder Structure
 
-📁 Resources/ ├── BG.png # Game background image ├── 1.png # Rock image (AI move) ├── 2.png # Paper image (AI move) ├── 3.png # Scissors image (AI move) ├── countdown.wav # Countdown sound ├── win.wav # Player win sound ├── lose.wav # AI win sound ├── draw.wav # Draw sound
+📁 Resources/ 
+├── BG.png # Game background image 
+├── 1.png # Rock image (AI move)
+├── 2.png # Paper image (AI move) 
+├── 3.png # Scissors image (AI move) 
+├── countdown.wav # Countdown sound 
+├── win.wav # Player win sound 
+├── lose.wav # AI win sound 
+├── draw.wav # Draw sound
 
 📄 rock_paper_scissors.py # Main game script
 
@@ -49,6 +57,7 @@ Edit
 
 ```bash
 pip install opencv-python cvzone numpy pygame
+```
 Place your assets in a folder named Resources/ (see structure above).
 
 Run the game:
@@ -69,6 +78,7 @@ Gesture	Fingers Up	Move
 ✊ Rock	[0, 0, 0, 0, 0]	ROCK
 ✋ Paper	[1, 1, 1, 1, 1]	PAPER
 ✌️ Scissors	[0, 1, 1, 0, 0]	SCISSORS
+
 🧠 AI Logic
 First 3 rounds: AI plays randomly.
 

@@ -63,7 +63,7 @@ python rock_paper_scissors.py
 ```
 ---
 
-##🕹️ Controls<br>
+## 🕹️ Controls<br>
 Press S to start a round.<br>
 
 Press R to reset scores.<br>
@@ -72,7 +72,7 @@ Press ESC to exit the game.<br>
 
 ---
 
-##✋ Hand Gestures<br>
+## ✋ Hand Gestures<br>
 | Gesture       | Fingers Up         | Move     |
 |---------------|--------------------|----------|
 | ✊ Rock        | [0, 0, 0, 0, 0]    | ROCK     |
@@ -81,7 +81,7 @@ Press ESC to exit the game.<br>
 
 ---
 
-##🧠 AI Logic <br>
+## 🧠 AI Logic <br>
 First 3 rounds: AI plays randomly. <br>
 
 After 3 rounds: AI tries to detect player patterns and choose counter moves. <br>
@@ -90,12 +90,12 @@ If no valid gesture is detected, AI wins that round. <br>
 
 ---
 
-##📸 Screenshots <br>
+## 📸 Screenshots <br>
 <!-- Add screenshots if you want -->
 
 ---
 
-##🤝 Credits <br>
+## 🤝 Credits <br>
 cvzone by Murtaza's Workshop <br>
 
 OpenCV community <br>
@@ -104,5 +104,5 @@ Sound effects: Free from online libraries <br>
 
 ---
 
-##📜 License <br>
+## 📜 License <br>
 This project is open source and free to use.

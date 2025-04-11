@@ -32,21 +32,17 @@ https://user-images.githubusercontent.com/your-demo.gif <!-- Optional: Add your 
 
 ## 📂 Folder Structure
 
-📁 Resources/ 
-├── BG.png # Game background image 
-├── 1.png # Rock image (AI move)
-├── 2.png # Paper image (AI move) 
-├── 3.png # Scissors image (AI move) 
-├── countdown.wav # Countdown sound 
-├── win.wav # Player win sound 
-├── lose.wav # AI win sound 
-├── draw.wav # Draw sound
+📁 Resources/<br>
+├── BG.png # Game background image <br>
+├── 1.png # Rock image (AI move) <br>
+├── 2.png # Paper image (AI move) <br>
+├── 3.png # Scissors image (AI move) <br>
+├── countdown.wav # Countdown sound <br>
+├── win.wav # Player win sound <br>
+├── lose.wav # AI win sound <br>
+├── draw.wav # Draw sound <br>
 
 📄 rock_paper_scissors.py # Main game script
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -62,39 +58,40 @@ Place your assets in a folder named Resources/ (see structure above).
 
 Run the game:
 
-bash
-Copy
-Edit
+```bash
 python rock_paper_scissors.py
-🕹️ Controls
-Press S to start a round.
+```
 
-Press R to reset scores.
+🕹️ Controls<br>
+Press S to start a round.<br>
 
-Press ESC to exit the game.
+Press R to reset scores.<br>
 
-✋ Hand Gestures
-Gesture	Fingers Up	Move
-✊ Rock	[0, 0, 0, 0, 0]	ROCK
-✋ Paper	[1, 1, 1, 1, 1]	PAPER
-✌️ Scissors	[0, 1, 1, 0, 0]	SCISSORS
+Press ESC to exit the game.<br>
 
-🧠 AI Logic
-First 3 rounds: AI plays randomly.
+✋ Hand Gestures<br>
+| Gesture       | Fingers Up         | Move     |
+|---------------|--------------------|----------|
+| ✊ Rock        | [0, 0, 0, 0, 0]    | ROCK     |
+| ✋ Paper       | [1, 1, 1, 1, 1]    | PAPER    |
+| ✌️ Scissors    | [0, 1, 1, 0, 0]    | SCISSORS |
 
-After 3 rounds: AI tries to detect player patterns and choose counter moves.
+🧠 AI Logic <br>
+First 3 rounds: AI plays randomly. <br>
 
-If no valid gesture is detected, AI wins that round.
+After 3 rounds: AI tries to detect player patterns and choose counter moves. <br>
 
-📸 Screenshots
+If no valid gesture is detected, AI wins that round. <br>
+
+📸 Screenshots <br>
 <!-- Add screenshots if you want -->
 
-🤝 Credits
-cvzone by Murtaza's Workshop
+🤝 Credits <br>
+cvzone by Murtaza's Workshop <br>
 
-OpenCV community
+OpenCV community <br>
 
-Sound effects: Free from online libraries
+Sound effects: Free from online libraries <br>
 
-📜 License
+📜 License <br>
 This project is open source and free to use.

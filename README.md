@@ -103,6 +103,3 @@ OpenCV community <br>
 Sound effects: Free from online libraries <br>
 
 ---
-
-## 📜 License <br>
-This project is open source and free to use.

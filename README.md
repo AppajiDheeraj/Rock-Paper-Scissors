@@ -4,7 +4,7 @@
 
 A fun computer vision-powered **Rock Paper Scissors** game where you play against an AI using just your **hand gestures and webcam**! Built with Python, OpenCV, and CVZone.
 
-https://user-images.githubusercontent.com/your-demo.gif <!-- Optional: Add your demo gif if you have one -->
+![Demo](rockpaperscissors-ezgif.com-optimize.gif)
 
 ---
 
@@ -87,11 +87,6 @@ First 3 rounds: AI plays randomly. <br>
 After 3 rounds: AI tries to detect player patterns and choose counter moves. <br>
 
 If no valid gesture is detected, AI wins that round. <br>
-
----
-
-## 📸 Screenshots <br>
-<!-- Add screenshots if you want -->
 
 ---
 

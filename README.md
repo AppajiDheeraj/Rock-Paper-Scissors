@@ -4,7 +4,7 @@
 
 A fun computer vision-powered **Rock Paper Scissors** game where you play against an AI using just your **hand gestures and webcam**! Built with Python, OpenCV, and CVZone.
 
-![Demo](rockpaperscissors-ezgif.com-optimize.gif)
+![Demo](./Resorces/rockpaperscissors-ezgif.com-optimize.gif)
 
 ---
 
